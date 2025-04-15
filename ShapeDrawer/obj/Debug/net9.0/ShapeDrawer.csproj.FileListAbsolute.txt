@@ -12,3 +12,4 @@
 /Users/khantthuaung/Desktop/OOPAssignments/ShapeDrawer/obj/Debug/net9.0/ShapeDrawer.pdb
 /Users/khantthuaung/Desktop/OOPAssignments/ShapeDrawer/obj/Debug/net9.0/ShapeDrawer.genruntimeconfig.cache
 /Users/khantthuaung/Desktop/OOPAssignments/ShapeDrawer/obj/Debug/net9.0/ref/ShapeDrawer.dll
+/Users/khantthuaung/Desktop/OOPAssignments/ShapeDrawer/obj/Debug/net9.0/ShapeDrawer.sourcelink.json
