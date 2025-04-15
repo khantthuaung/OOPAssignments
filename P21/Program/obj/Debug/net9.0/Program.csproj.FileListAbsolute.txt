@@ -1,0 +1,14 @@
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/bin/Debug/net9.0/Program
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/bin/Debug/net9.0/Program.deps.json
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/bin/Debug/net9.0/Program.runtimeconfig.json
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/bin/Debug/net9.0/Program.dll
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/bin/Debug/net9.0/Program.pdb
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/obj/Debug/net9.0/Program.GeneratedMSBuildEditorConfig.editorconfig
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/obj/Debug/net9.0/Program.AssemblyInfoInputs.cache
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/obj/Debug/net9.0/Program.AssemblyInfo.cs
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/obj/Debug/net9.0/Program.csproj.CoreCompileInputs.cache
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/obj/Debug/net9.0/Program.dll
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/obj/Debug/net9.0/refint/Program.dll
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/obj/Debug/net9.0/Program.pdb
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/obj/Debug/net9.0/Program.genruntimeconfig.cache
+/Users/khantthuaung/Desktop/OOPAssignments/P21/Program/obj/Debug/net9.0/ref/Program.dll

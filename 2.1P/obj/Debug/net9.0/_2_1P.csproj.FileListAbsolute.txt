@@ -1,0 +1,14 @@
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/bin/Debug/net9.0/_2_1P
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/bin/Debug/net9.0/_2_1P.deps.json
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/bin/Debug/net9.0/_2_1P.runtimeconfig.json
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/bin/Debug/net9.0/_2_1P.dll
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/bin/Debug/net9.0/_2_1P.pdb
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/obj/Debug/net9.0/_2_1P.GeneratedMSBuildEditorConfig.editorconfig
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/obj/Debug/net9.0/_2_1P.AssemblyInfoInputs.cache
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/obj/Debug/net9.0/_2_1P.AssemblyInfo.cs
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/obj/Debug/net9.0/_2_1P.csproj.CoreCompileInputs.cache
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/obj/Debug/net9.0/_2_1P.dll
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/obj/Debug/net9.0/refint/_2_1P.dll
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/obj/Debug/net9.0/_2_1P.pdb
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/obj/Debug/net9.0/_2_1P.genruntimeconfig.cache
+/Users/khantthuaung/Desktop/OOPAssignments/2.1P/obj/Debug/net9.0/ref/_2_1P.dll

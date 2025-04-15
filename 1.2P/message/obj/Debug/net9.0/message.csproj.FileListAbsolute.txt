@@ -1,0 +1,14 @@
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/bin/Debug/net9.0/message
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/bin/Debug/net9.0/message.deps.json
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/bin/Debug/net9.0/message.runtimeconfig.json
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/bin/Debug/net9.0/message.dll
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/bin/Debug/net9.0/message.pdb
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.GeneratedMSBuildEditorConfig.editorconfig
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.AssemblyInfoInputs.cache
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.AssemblyInfo.cs
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.csproj.CoreCompileInputs.cache
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.dll
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/refint/message.dll
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.pdb
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.genruntimeconfig.cache
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/ref/message.dll
