@@ -16,28 +16,38 @@ namespace HelloWorld
             messages.Add(new Message("Hello, Khant Thu!Welcome back!"));
             messages.Add(new Message("Hello,Nice to meet you!"));
 
-            Console.Write("Enter name: ");
-            string name = Console.ReadLine();
-            if (name.ToLower()=="zin")
+
+            while (true)
             {
-                messages[0].Print();
+                Console.Write("Enter name: ");
+
+                string name = Console.ReadLine();
+                if (name.ToLower() == "exit")
+                {
+                    break;
+                }
+                else if (name.ToLower() == "zin")
+                {
+                    messages[0].Print();
+                }
+                else if (name.ToLower() == "kaung")
+                {
+                    messages[1].Print();
+                }
+                else if (name.ToLower() == "show")
+                {
+                    messages[2].Print();
+                }
+                else if (name.ToLower() == "khantthu")
+                {
+                    messages[3].Print();
+                }
+                else
+                {
+                    messages[4].Print();
+                }
             }
-            else if (name.ToLower()=="kaung")
-            {
-                messages[1].Print();
-            }
-            else if (name.ToLower()=="show")
-            {
-                messages[2].Print();
-            }
-            else if (name.ToLower()=="khantthu")
-            {
-                messages[3].Print();
-            }
-            else
-            {
-                messages[4].Print();
-            }
+
         }
     }
 }

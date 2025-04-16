@@ -12,3 +12,4 @@
 /Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.pdb
 /Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.genruntimeconfig.cache
 /Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/ref/message.dll
+/Users/khantthuaung/Desktop/OOPAssignments/1.2P/message/obj/Debug/net9.0/message.sourcelink.json
