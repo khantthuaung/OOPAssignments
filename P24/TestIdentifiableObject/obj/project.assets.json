@@ -346,6 +346,16 @@
             "related": ".xml"
           }
         }
+      },
+      "IdentifiableObject/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/IdentifiableObject.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/IdentifiableObject.dll": {}
+        }
       }
     }
   },
@@ -793,10 +803,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "IdentifiableObject/1.0.0": {
+      "type": "project",
+      "path": "../IdentifiableObject/IdentifiableObject.csproj",
+      "msbuildProject": "../IdentifiableObject/IdentifiableObject.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "IdentifiableObject >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.4.0",
@@ -828,7 +844,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/khantthuaung/Desktop/OOPAssignments/P24/IdentifiableObject/IdentifiableObject.csproj": {
+              "projectPath": "/Users/khantthuaung/Desktop/OOPAssignments/P24/IdentifiableObject/IdentifiableObject.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

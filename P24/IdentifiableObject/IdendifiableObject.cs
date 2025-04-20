@@ -1,5 +1,4 @@
-
-namespace IdentifiableObject
+namespace SwinAdventure
 {
     public class IdentifiableObject
     {
