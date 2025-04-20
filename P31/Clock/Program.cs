@@ -7,7 +7,7 @@ namespace Clock
     {
         public static void Main()
         {
-
+            window window = new window("Clock", 800, 600);
         }
     }
 }
