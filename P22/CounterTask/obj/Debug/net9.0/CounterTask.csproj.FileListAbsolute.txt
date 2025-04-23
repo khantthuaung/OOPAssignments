@@ -12,3 +12,4 @@
 /Users/khantthuaung/Desktop/OOPAssignments/P22/CounterTask/obj/Debug/net9.0/CounterTask.pdb
 /Users/khantthuaung/Desktop/OOPAssignments/P22/CounterTask/obj/Debug/net9.0/CounterTask.genruntimeconfig.cache
 /Users/khantthuaung/Desktop/OOPAssignments/P22/CounterTask/obj/Debug/net9.0/ref/CounterTask.dll
+/Users/khantthuaung/Desktop/OOPAssignments/P22/CounterTask/obj/Debug/net9.0/CounterTask.sourcelink.json

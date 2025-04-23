@@ -42,14 +42,18 @@ namespace CounterTask
         }
         public void ResetByDefault()
         {
-            // unchecked allows a value that overflows int range without throwing an exception.
-            unchecked
-            {
-                _count = (int)2147483647912;
-                // value is beyond the max value of int
-                // This wraps around and results in a negative value.
-                // This does NOT crash the program.;
+            unchecked{
+                    _count = (int)2147483647912;
             }
+                //Answer to Q13
+                //No, the code does not run — it throws a compile-time error.
+                //The value 2147483647912 exceeds the maximum limit of the int data type in C#, 
+                // which is 2,147,483,647. To store larger values, 
+                // we must use a long data type or cast it with overflow handling (e.g., unchecked).
+                //To fix this , we can use a long data type or handle the overflow.
+
+                // The 'unchecked' block tells the compiler to ignore overflow errors,
+                // so the large number wraps around and is stored as a negative int.
         }
     }
 }
