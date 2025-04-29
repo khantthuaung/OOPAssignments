@@ -346,6 +346,16 @@
             "related": ".xml"
           }
         }
+      },
+      "Clock/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v9.0",
+        "compile": {
+          "bin/placeholder/Clock.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/Clock.dll": {}
+        }
       }
     }
   },
@@ -793,10 +803,16 @@
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
+    },
+    "Clock/1.0.0": {
+      "type": "project",
+      "path": "../Clock/Clock.csproj",
+      "msbuildProject": "../Clock/Clock.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net9.0": [
+      "Clock >= 1.0.0",
       "Microsoft.NET.Test.Sdk >= 17.12.0",
       "NUnit >= 4.2.2",
       "NUnit.Analyzers >= 4.4.0",
@@ -828,7 +844,11 @@
       "frameworks": {
         "net9.0": {
           "targetAlias": "net9.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "/Users/khantthuaung/Desktop/OOPAssignments/P31/Clock/Clock.csproj": {
+              "projectPath": "/Users/khantthuaung/Desktop/OOPAssignments/P31/Clock/Clock.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

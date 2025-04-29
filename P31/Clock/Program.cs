@@ -1,13 +1,21 @@
 using System;
 using SplashKitSDK;
 
-namespace Clock
+namespace ClockApp
 {
     public class Program
     {
         public static void Main()
         {
-            window window = new window("Clock", 800, 600);
+            int secondTotal = 86400;
+            Clock myClock = new Clock();
+            for (int i = 0; i < secondTotal; i++)
+            {
+                myClock.Tick();
+                Console.WriteLine(myClock.GetTime());
+                // Thread.Sleep(1000);
+            }
         }
+
     }
 }

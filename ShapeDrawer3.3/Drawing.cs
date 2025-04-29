@@ -48,10 +48,7 @@ namespace ShapeDrawer
         {
             foreach (Shape s in _shapes)
             {
-                if (s.isAt(pt))
-                {
-                    s.Selected = s.isAt(pt);
-                }
+                s.Selected = s.isAt(pt);
             }
         } 
         public List<Shape> SelectedShapes
@@ -62,10 +59,9 @@ namespace ShapeDrawer
                 List<Shape> selectedShapes = new List<Shape>();
                 foreach(Shape s in _shapes)
                 {
-                    if(s.Selected) 
-                    selectedShapes.Add(s);
+                    if(s.Selected) selectedShapes.Add(s);
                 }
-                return SelectedShapes;
+                return selectedShapes;
             }
         }   
     }

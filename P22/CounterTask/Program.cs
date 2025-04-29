@@ -15,6 +15,12 @@
             myCounters[0] = new Counter("Counter 1");
             myCounters[1] = new Counter("Counter 2");
             myCounters[2] = myCounters[1];
+
+            myCounters = null;
+            int X = 2;
+            myCounters[X] = new Counter("New Counter");
+
+            
             for (int i = 1; i <= 9; i++)
             {
                 myCounters[0].Increment();

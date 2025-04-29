@@ -97,3 +97,10 @@
 /Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/obj/Debug/net9.0/TestCounter.pdb
 /Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/obj/Debug/net9.0/TestCounter.genruntimeconfig.cache
 /Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/obj/Debug/net9.0/ref/TestCounter.dll
+/Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/bin/Debug/net9.0/.msCoverageSourceRootsMapping_TestCounter
+/Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/bin/Debug/net9.0/CoverletSourceRootsMapping_TestCounter
+/Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/bin/Debug/net9.0/Clock.deps.json
+/Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/bin/Debug/net9.0/Clock.runtimeconfig.json
+/Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/bin/Debug/net9.0/Clock
+/Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/bin/Debug/net9.0/Clock.dll
+/Users/khantthuaung/Desktop/OOPAssignments/P31/TestCounter/bin/Debug/net9.0/Clock.pdb
