@@ -31,17 +31,17 @@ namespace ShapeDrawer
             {
                 DrawOutline();
             }
-            SplashKit.FillRectangle(_color, _x, _y, _width, _height);
+            SplashKit.FillRectangle(Color, X, Y, _width, _height);
         }
         public override void DrawOutline()
         {
             int outlineWidth = 7;
-            SplashKit.FillRectangle(Color.Black, _x - outlineWidth, _y - outlineWidth, _width + outlineWidth * 2, _height + outlineWidth * 2);
+            SplashKit.FillRectangle(Color.Black, X - outlineWidth, Y - outlineWidth, _width + outlineWidth * 2, _height + outlineWidth * 2);
         }
 
         public override bool isAt(Point2D pt)
         {
-            return (pt.X >= _x && pt.X <= _x + _width && pt.Y >= _y && pt.Y <= _y + _height);
+            return (pt.X >= X && pt.X <= X + _width && pt.Y >= X && pt.Y <= Y + _height);
         }
     }
 }

@@ -5,10 +5,10 @@ namespace ShapeDrawer
 {
     public abstract class Shape
     {
-        protected Color _color;
-        protected float _x;
-        protected float _y;
-        protected bool _selected = false;
+        private Color _color;
+        private float _x;
+        private float _y;
+        private bool _selected = false;
 
         public Shape(Color color)
         {

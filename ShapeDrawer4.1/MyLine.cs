@@ -11,7 +11,6 @@ namespace ShapeDrawer
         }
         public MyLine(Color color)
         {
-            _color = color;
             X = SplashKit.MouseX();
             Y = SplashKit.MouseY();
             _endX = X + 200;
@@ -31,7 +30,7 @@ namespace ShapeDrawer
         //overridden methods
         public override void Draw()
         {
-            if (_selected)
+            if (Selected)
             {
                 DrawOutline();
             }
@@ -45,10 +44,10 @@ namespace ShapeDrawer
         }
         public override bool isAt(Point2D pt)
         {
-            float minX = Math.Min(_x, _endX) - 3;
-            float maxX = Math.Max(_x, _endX) + 3;
-            float minY = Math.Min(_y, _endY) - 3;
-            float maxY = Math.Max(_y, _endY) + 3;
+            float minX = Math.Min(X, _endX) - 3;
+            float maxX = Math.Max(X, _endX) + 3;
+            float minY = Math.Min(Y, _endY) - 3;
+            float maxY = Math.Max(Y, _endY) + 3;
 
             return (pt.X >= minX && pt.X <= maxX && pt.Y >= minY && pt.Y <= maxY);
         }

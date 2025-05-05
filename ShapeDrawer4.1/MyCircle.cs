@@ -9,7 +9,6 @@ namespace ShapeDrawer
         }
         public MyCircle(Color color, int radius) : base()
         {
-            _color = color;
             _radius = radius;
         }
         /// Properties
@@ -21,16 +20,16 @@ namespace ShapeDrawer
         //overriddedn methods
         public override void Draw()
         {
-            if (_selected)
+            if (Selected)
             {
                 this.DrawOutline();
             }
-            SplashKit.FillCircle(_color, X, Y, _radius);
+            SplashKit.FillCircle(Color, X, Y, _radius);
         }
         public override void DrawOutline()
         {
             int outlineWidth = 2;
-            SplashKit.FillCircle(Color.Black, _x, _y, _radius + outlineWidth);
+            SplashKit.FillCircle(Color.Black, X, Y, Radius + outlineWidth);
         }
         public override bool isAt(Point2D pt)
         {
