@@ -12,7 +12,7 @@ namespace SwinAdventure
         {
             return _items.Any(_item => _item.AreYou(id));
         }
-        public void PutItem(Item item)
+        public void Put(Item item)
         {
             _items.Add(item);
         }
@@ -44,7 +44,6 @@ namespace SwinAdventure
                 }
                 return list.TrimEnd();
             }
-
         }
     }
 }

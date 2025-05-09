@@ -18,8 +18,8 @@ namespace UnitTest
             player = new Player("Hero", "a brave warrior");
             sword = new Item(new string[] { "sword" , "bronze sword"},"a bronze sword" ,"A shiny bronze sword.");
             shield = new Item(new string[] { "shield" , "wooden shield"},"a wooden shield", "A sturdy wooden shield.");
-            player.Inventory.PutItem(sword);
-            player.Inventory.PutItem(shield);
+            player.Inventory.Put(sword);
+            player.Inventory.Put(shield);
         }
 
         [Test]

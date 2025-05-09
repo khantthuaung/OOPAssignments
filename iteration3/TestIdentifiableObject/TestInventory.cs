@@ -16,8 +16,8 @@ namespace UnitTest
             inventory = new Inventory();
             item1 = new Item(new string[] { "sword" }, "bronze sword", "A shiny bronze sword.");
             item2 = new Item(new string[] { "shield" }, "wooden shield", "A sturdy wooden shield.");
-            inventory.PutItem(item1);
-            inventory.PutItem(item2);
+            inventory.Put(item1);
+            inventory.Put(item2);
         }
 
         [Test]
