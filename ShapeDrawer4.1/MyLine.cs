@@ -9,7 +9,7 @@ namespace ShapeDrawer
         public MyLine() : this(Color.Red)
         {
         }
-        public MyLine(Color color)
+        public MyLine(Color color):base(color)
         {
             X = SplashKit.MouseX();
             Y = SplashKit.MouseY();
@@ -44,12 +44,8 @@ namespace ShapeDrawer
         }
         public override bool isAt(Point2D pt)
         {
-            float minX = Math.Min(X, _endX) - 3;
-            float maxX = Math.Max(X, _endX) + 3;
-            float minY = Math.Min(Y, _endY) - 3;
-            float maxY = Math.Max(Y, _endY) + 3;
-
-            return (pt.X >= minX && pt.X <= maxX && pt.Y >= minY && pt.Y <= maxY);
+            Line line = SplashKit.LineFrom(X, Y, _endX, _endY);
+            return SplashKit.PointOnLine(pt, line, 5);
         }
     }
 }

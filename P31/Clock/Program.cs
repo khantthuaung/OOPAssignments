@@ -9,6 +9,10 @@ namespace ClockApp
         {
             int secondTotal = 86400;
             Clock myClock = new Clock();
+            for (int i = 0; i < 3600; i++) // 3600 seconds = 1 hour
+            {
+                myClock.Tick();
+            }
             for (int i = 0; i < secondTotal; i++)
             {
                 myClock.Tick();

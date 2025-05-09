@@ -18,7 +18,8 @@ namespace ClockApp
             _second = new Counter("Second");
         }
         public void Tick()
-        {
+        {   
+            
             IncrementSecond();
         }
         private void IncrementSecond()

@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("CounterTask")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+42755c46121ea7a4aa25860c0618f17f749f38a8")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+088a006e87300f8ba284474d6fa0585c6589414c")]
 [assembly: System.Reflection.AssemblyProductAttribute("CounterTask")]
 [assembly: System.Reflection.AssemblyTitleAttribute("CounterTask")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
