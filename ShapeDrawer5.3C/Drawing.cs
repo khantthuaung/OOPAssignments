@@ -46,15 +46,21 @@ namespace ShapeDrawer
         }
         public void Save(string filename)
         {
-            StreamWriter writer;
-            writer = new StreamWriter(filename);
-            writer.WriteColor(Background);
-            writer.WriteLine(_shapes.Count);
-            foreach (Shape s in _shapes)
+            StreamWriter writer = new StreamWriter(filename);
+            try
             {
-                s.SaveTo(writer);
+                writer.WriteColor(Background);
+                writer.WriteLine(_shapes.Count);
+                foreach (Shape s in _shapes)
+                {
+                    s.SaveTo(writer);
+                }
             }
-            writer.Close();
+            finally
+            {
+                writer.Close();
+            }
+
         }
         public void Load(string filename)
         {
@@ -68,7 +74,7 @@ namespace ShapeDrawer
                 for (int i = 0; i < count; i++)
                 {
                     string kind = reader.ReadLine();
-                    
+
                     switch (kind)
                     {
                         case "Rectangle":
