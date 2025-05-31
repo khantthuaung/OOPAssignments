@@ -8,7 +8,7 @@ namespace ShapeDrawer
         public static void Main()
         {
             Window window = new Window("Shape Drawer", 800, 600);
-            Shape myShape = new Shape(100);
+            Shape myShape = new Shape(112);
 
             do
             {

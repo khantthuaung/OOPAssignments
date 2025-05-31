@@ -12,7 +12,7 @@ namespace ShapeDrawer
 
         public Shape(int param)
         {
-            _color = Color.LightGreen;
+            _color = Color.Azure;
             _x = 0.0f;
             _y = 0.0f;
             _width = param;
