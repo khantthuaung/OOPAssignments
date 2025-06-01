@@ -20,12 +20,11 @@ public class TestLookCommand
         _bag = new Bag(new string[] { "bag" }, "small bag", "A small leather bag");
         _player.Inventory.Put(_bag);
     }
-
     [Test]
     public void TestLookAtMe()
     {
         string result = _lookCommand.Execute(_player, new string[] { "look", "at", "inventory" });
-        ClassicAssert.IsTrue(result.Contains("You are"), "Should return player's full description");
+        ClassicAssert.That(result, Is.EqualTo(_player.FullDescription));
     }
 
     [Test]

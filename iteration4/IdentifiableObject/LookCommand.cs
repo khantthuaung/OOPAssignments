@@ -3,13 +3,9 @@ namespace SwinAdventure;
 public class LookCommand : Command
 {
 
-    public LookCommand() : base(new string[] { "look" })
-    {
-    }
-
+    public LookCommand() : base(new string[] { "look" }) { }
     public override string Execute(Player p, string[] text)
     {
-
         if (text[0].ToLower() != "look")
         {
             return "Error in look input";
@@ -22,7 +18,6 @@ public class LookCommand : Command
         {
             return "What do you want to look at?";
         }
-
         if (text.Length == 5 && text[3].ToLower() != "in")
         {
             return "What do you want to look in?";
@@ -43,15 +38,13 @@ public class LookCommand : Command
                 return $"I can't find the {containerId}";
             }
         }
-        return LookAtIn(itemId, container);
-        
+        return LookAtIn(itemId, container);   
     }
 
     private IHaveInventory FetchContainer(Player p, string containerId)
     {
         GameObject obj = p.Locate(containerId);
         return obj as IHaveInventory;
-
     }
     private string LookAtIn(string thingId, IHaveInventory container)
     {

@@ -23,8 +23,8 @@ namespace UnitTest
         [Test]
         public void TestFindItem()
         {
-            ClassicAssert.AreEqual(item1, inventory.Fetch("sword"));
-            ClassicAssert.AreEqual(item2, inventory.Fetch("shield"));
+            Assert.That(inventory.Fetch("sword"), Is.EqualTo(item1));
+            Assert.That(inventory.Fetch("shield"), Is.EqualTo(item2));
         }
 
         [Test]
@@ -37,7 +37,7 @@ namespace UnitTest
         public void TestFetchItem()
         {
             var fetchedItem = inventory.Fetch("sword");
-            ClassicAssert.AreEqual(item1, fetchedItem);
+            Assert.That(fetchedItem, Is.EqualTo(item1));
             ClassicAssert.IsTrue(inventory.HasItem("sword"));
         }
 
@@ -45,7 +45,7 @@ namespace UnitTest
         public void TestTakeItem()
         {
             var takenItem = inventory.Take("sword");
-            ClassicAssert.AreEqual(item1, takenItem);
+            Assert.That(takenItem, Is.EqualTo(item1));
             ClassicAssert.IsFalse(inventory.HasItem("sword"));
         }
 
@@ -53,7 +53,7 @@ namespace UnitTest
         public void TestItemList()
         {
             string expected = "bronze sword (sword)\nwooden shield (shield)";
-            ClassicAssert.AreEqual(expected, inventory.ItemList);
+            Assert.That(inventory.ItemList, Is.EqualTo(expected));
         }
     }
 }

@@ -16,7 +16,7 @@ namespace SwinAdventure
         {
             _items.Add(item);
         }
-        public Item? Take(string id)
+        public Item Take(string id)
         {
             for (int i = 0; i < _items.Count; i++)
             {
@@ -29,7 +29,7 @@ namespace SwinAdventure
             }
             return null;
         }
-        public Item? Fetch(string id)
+        public Item Fetch(string id)
         {
             foreach (Item item in _items)
             {
