@@ -18,10 +18,14 @@ namespace SwinAdventure
         }
         public Item? Take(string id)
         {
-            foreach (var item in _items)
+            for (int i = 0; i < _items.Count; i++)
             {
-                if (item.AreYou(id))
-                    return item;
+                if (_items[i].AreYou(id))
+                {
+                    Item takenItem = _items[i];
+                    _items.RemoveAt(i);
+                    return takenItem;
+                }
             }
             return null;
         }

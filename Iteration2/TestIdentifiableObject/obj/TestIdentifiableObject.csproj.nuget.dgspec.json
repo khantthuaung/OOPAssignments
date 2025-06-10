@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/TestIdentifiableObject/TestIdentifiableObject.csproj": {}
+    "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/TestIdentifiableObject/TestIdentifiableObject.csproj": {}
   },
   "projects": {
-    "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj": {
+    "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj",
+        "projectUniqueName": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj",
         "projectName": "IdentifiableObject",
-        "projectPath": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj",
+        "projectPath": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj",
         "packagesPath": "/Users/khantthuaung/.nuget/packages/",
-        "outputPath": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/obj/",
+        "outputPath": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/khantthuaung/.nuget/NuGet/NuGet.Config"
@@ -63,14 +63,14 @@
         }
       }
     },
-    "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/TestIdentifiableObject/TestIdentifiableObject.csproj": {
+    "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/TestIdentifiableObject/TestIdentifiableObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/TestIdentifiableObject/TestIdentifiableObject.csproj",
+        "projectUniqueName": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/TestIdentifiableObject/TestIdentifiableObject.csproj",
         "projectName": "TestIdentifiableObject",
-        "projectPath": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/TestIdentifiableObject/TestIdentifiableObject.csproj",
+        "projectPath": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/TestIdentifiableObject/TestIdentifiableObject.csproj",
         "packagesPath": "/Users/khantthuaung/.nuget/packages/",
-        "outputPath": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/TestIdentifiableObject/obj/",
+        "outputPath": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/TestIdentifiableObject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/khantthuaung/.nuget/NuGet/NuGet.Config"
@@ -85,8 +85,8 @@
           "net9.0": {
             "targetAlias": "net9.0",
             "projectReferences": {
-              "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj": {
-                "projectPath": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj"
+              "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj": {
+                "projectPath": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj"
               }
             }
           }

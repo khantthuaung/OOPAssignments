@@ -46,7 +46,7 @@ namespace UnitTest
         {
             var takenItem = inventory.Take("sword");
             ClassicAssert.AreEqual(item1, takenItem);
-            ClassicAssert.IsFalse(inventory.HasItem("axe"));
+            ClassicAssert.IsFalse(inventory.HasItem("sword"));
         }
 
         [Test]

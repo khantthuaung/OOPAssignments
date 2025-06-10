@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj": {}
+    "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj": {}
   },
   "projects": {
-    "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj": {
+    "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj",
+        "projectUniqueName": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj",
         "projectName": "IdentifiableObject",
-        "projectPath": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj",
+        "projectPath": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/IdentifiableObject.csproj",
         "packagesPath": "/Users/khantthuaung/.nuget/packages/",
-        "outputPath": "/Users/khantthuaung/Desktop/OOPAssignments/Iteration2/IdentifiableObject/obj/",
+        "outputPath": "/Users/khantthuaung/Desktop/ALL/OOPAssignments/Iteration2/IdentifiableObject/obj/",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "/Users/khantthuaung/.nuget/NuGet/NuGet.Config"
