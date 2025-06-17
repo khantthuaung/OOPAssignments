@@ -15,7 +15,8 @@ namespace UnitTest
         [SetUp]
         public void Setup()
         {
-            player = new Player("Hero", "a brave warrior");
+            Location room = new Location("room", "spawn room");
+            player = new Player("Hero", "a brave warrior",room);
             sword = new Item(new string[] { "sword" , "bronze sword"},"a bronze sword" ,"A shiny bronze sword.");
             shield = new Item(new string[] { "shield" , "wooden shield"},"a wooden shield", "A sturdy wooden shield.");
             player.Inventory.Put(sword);

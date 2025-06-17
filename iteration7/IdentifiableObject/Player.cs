@@ -6,10 +6,10 @@ namespace SwinAdventure
     {
         private Inventory _inventory;
         private Location _location;
-        public Player(string name, string desc) : base(new string[] { "me", "inventory" }, name, desc)
+        public Player(string name, string desc,Location location) : base(new string[] { "me", "inventory" }, name, desc)
         {
+            _location = location;
             _inventory = new Inventory();
-            _location = null;
         }
         public GameObject Locate(string id)
         {

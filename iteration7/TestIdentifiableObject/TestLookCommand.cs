@@ -12,7 +12,8 @@ public class TestLookCommand
     [SetUp]
     public void Setup()
     {
-        _player = new Player("Fred", "the mighty programmer");
+        Location room = new Location("room", "spawn room");
+        _player = new Player("Fred", "the mighty programmer",room);
         _gem = new Item(new string[] { "gem" }, "a gem", "A bright red gem");
         _lookCommand = new LookCommand();
 
