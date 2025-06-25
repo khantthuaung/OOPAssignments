@@ -27,29 +27,29 @@ public class Program
 
         //exits for each location
         //from spawn
-        Path spawnEast = new(new string[] { "east" }, "Concerete Path", "a path leadig to ferris wheel area", ferrisWheel);
+        Path spawnEast = new(new string[] { "east" ,"e"}, "Concerete Path", "a path leadig to ferris wheel area", ferrisWheel);
         spawnPoint.AddPath(spawnEast);
 
-        Path ferrisEast = new(new string[] { "east" }, "Concerete Path", "a path leading to Jungle Ride area", jungleRide);
-        Path ferrisWest = new(new string[] { "west" }, "Concerete Path", "a path leading back to gate. ", spawnPoint);
+        Path ferrisEast = new(new string[] { "east" ,"e"}, "Concerete Path", "a path leading to Jungle Ride area", jungleRide);
+        Path ferrisWest = new(new string[] { "west","w" }, "Concerete Path", "a path leading back to gate. ", spawnPoint);
         ferrisWheel.AddPath(ferrisEast);
         ferrisWheel.AddPath(ferrisWest);
-        Path jungleWest = new(new string[] { "west" }, "Concerete Path", "a path leading back to Ferris Wheel area", ferrisWheel);
-        Path jungleNorth = new(new string[] { "north" }, "Dirt Path", "a path leading to Haunted House area", hauntedHouse);
+        Path jungleWest = new(new string[] { "west" ,"w"}, "Concerete Path", "a path leading back to Ferris Wheel area", ferrisWheel);
+        Path jungleNorth = new(new string[] { "north" ,"n"}, "Dirt Path", "a path leading to Haunted House area", hauntedHouse);
         jungleRide.AddPath(jungleWest);
         jungleRide.AddPath(jungleNorth);
-        Path hauntEast = new(new string[] { "east" }, "Small Bridge", "a path leading to Ice Cream Shop", iceCreamShop);
-        Path hauntSouth = new(new string[] { "south" }, "Dirt Path", "a path leading back to Jungle Ride Area", jungleRide);
-        Path hauntSe = new(new string[] { "southeast" }, "Stone Path", "a path leading to Boat Racing Area", boatRace);
+        Path hauntEast = new(new string[] { "east" ,"e"}, "Small Bridge", "a path leading to Ice Cream Shop", iceCreamShop);
+        Path hauntSouth = new(new string[] { "south" ,"s" }, "Dirt Path", "a path leading back to Jungle Ride Area", jungleRide);
+        Path hauntSe = new(new string[] { "southeast" ,"se" }, "Stone Path", "a path leading to Boat Racing Area", boatRace);
         hauntedHouse.AddPath(hauntEast);
         hauntedHouse.AddPath(hauntSouth);
         hauntedHouse.AddPath(hauntSe);
-        Path iceSouth = new(new string[] { "south" }, "Concerete Path", "a path leading to Boat Racing Area", boatRace);
-        Path iceWest = new(new string[] { "west" }, "Small Bridge", "a path leading back to Haunted House Area", hauntedHouse);
+        Path iceSouth = new(new string[] { "south","s" }, "Concerete Path", "a path leading to Boat Racing Area", boatRace);
+        Path iceWest = new(new string[] { "west","w" }, "Small Bridge", "a path leading back to Haunted House Area", hauntedHouse);
         iceCreamShop.AddPath(iceSouth);
         iceCreamShop.AddPath(iceWest);
-        Path boatNw = new(new string[] { "northwest" }, "Stone Path", "a path leading to Haunted House Area", hauntedHouse);
-        Path boatNorth = new(new string[] { "north" }, "Concerete Path", "a path leading to Ice Cream Area", iceCreamShop);
+        Path boatNw = new(new string[] { "northwest","nw" }, "Stone Path", "a path leading to Haunted House Area", hauntedHouse);
+        Path boatNorth = new(new string[] { "north" ,"n"}, "Concerete Path", "a path leading to Ice Cream Area", iceCreamShop);
         boatRace.AddPath(boatNw);
         boatRace.AddPath(boatNorth);
         

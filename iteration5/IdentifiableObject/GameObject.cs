@@ -9,7 +9,6 @@ namespace SwinAdventure
             _name = name;
             _description = desc;
         }
-
         public string Name
         {
             get{return _name;}

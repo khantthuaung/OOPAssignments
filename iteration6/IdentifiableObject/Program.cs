@@ -14,8 +14,11 @@ public class Program
         Console.Write("Description -> ");
         playerDescription = Console.ReadLine();
 
-        Player me = new(playerName, playerDescription);
-
+        
+        Location gate = new("hall", "a large empty hall");
+        Player me = new(playerName, playerDescription,gate);
+        Item gem = new(new string[] { "gem", "green gem" }, "A green gem", "A gem that you found on the rock");
+        gate.Inventory.Put(gem);
         Item shield = new(new string[] { "shield", "broken shield" }, "A broken shield", "A sheild that's been through alot");
         Item sword = new(new string[] { "sword", "dull sword" }, "A dull sword", "A sword that's been fought for its life");
 

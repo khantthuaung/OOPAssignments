@@ -16,7 +16,6 @@ namespace SwinAdventure
         }
         public override string FullDescription
         {
-        
             get
             {
                 return $"You are {Name}, {base.FullDescription}.\nYou are carrying:\n{_inventory.ItemList}";

@@ -3,9 +3,16 @@ namespace SwinAdventure;
 public class LookCommand : Command
 {
 
+    
     public LookCommand() : base(new string[] { "look" }) { }
     public override string Execute(Player p, string[] text)
     {
+        IHaveInventory container;
+        if (text.Length == 1 && (text[0].ToLower() == "inventory" || text[0].ToLower() == "inv"))
+        {
+            container = p;
+            return LookAtIn("me", container);
+        }
         if (text[0].ToLower() != "look")
         {
             return "Error in look input";
@@ -23,8 +30,7 @@ public class LookCommand : Command
             return "What do you want to look in?";
         }
         string itemId = text[2];
-        IHaveInventory container;
-
+         
         if (text.Length == 3)
         {
             container = p;

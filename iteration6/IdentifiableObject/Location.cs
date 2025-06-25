@@ -17,7 +17,7 @@ public class Location : GameObject, IHaveInventory
     {
         get
         {
-        return $"You are at {base.Name}\nThis is a {base.FullDescription}\nIn this {base.Name}, you can see {Inventory.ItemList}";
+        return $"You are at {base.Name}\nThis is a {base.FullDescription}\nIn this {base.Name}, you can see\n{Inventory.ItemList}";
         }
     }
 }

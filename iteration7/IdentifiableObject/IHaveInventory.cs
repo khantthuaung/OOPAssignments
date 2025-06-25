@@ -3,6 +3,6 @@ namespace SwinAdventure;
 public interface IHaveInventory 
 {
     GameObject Locate(string id);
-    public string Name { get; }
+    string Name { get; }
 }
     

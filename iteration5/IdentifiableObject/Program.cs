@@ -31,26 +31,28 @@ public class Program
             string command = "";
             Console.Write("Command -> ");
             command = Console.ReadLine();
-
-            switch (command)
+            string[] parts = command.ToLower().Split(' ');
+            switch (parts[0])
             {
                 case "exit":
-                    {
-                        Console.WriteLine("Bye Adventurer!");
-                        return;
-                    }
                 case "end":
                     {
                         Console.WriteLine("Bye Adventurer!");
                         return;
                     }
+                case "look":
+                case "inventory":
+                case "inv":
+                    {
+                        Console.WriteLine(new LookCommand().Execute(me, parts));
+                        break;
+                    }
                 default:
                     {
-                        Console.WriteLine(new LookCommand().Execute(me, command.Split(' ')));
+                        Console.WriteLine("I don't know how to respone that.");
                         break;
                     }
             }
         }
     }
-
 }

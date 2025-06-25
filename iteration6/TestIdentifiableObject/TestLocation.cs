@@ -14,7 +14,7 @@ public class TestLocation
     {
         room = new Location("hall", "a large empty hall");
         gem = new Item(new string[] { "Gem", "a gem" }, "A beautiful gem", "A beautiful gem that you found in the chest");
-        player = new("Fred", "a mighty adventurer");
+        player = new("Fred", "a mighty adventurer",room);
         player.Location = room;
         room.Inventory.Put(gem);
     }

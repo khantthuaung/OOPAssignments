@@ -19,7 +19,6 @@ namespace ClockApp
         }
         public void Tick()
         {   
-            
             IncrementSecond();
         }
         private void IncrementSecond()

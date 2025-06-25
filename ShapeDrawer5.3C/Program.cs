@@ -64,7 +64,6 @@ namespace ShapeDrawer
                 if (SplashKit.KeyTyped(KeyCode.LKey))
                 {
                     int count = 2; //studentID= 105292912
-
                     for (int i = 0; i < count; i++)
                     {
                         float startX = SplashKit.MouseX();
@@ -79,13 +78,12 @@ namespace ShapeDrawer
 
                         myDrawing.AddShape(newLine);
                     }
-
                 }
                 if(SplashKit.KeyTyped(KeyCode.SKey))
                 {
                     //saving total 7 shapes
                     myDrawing.Save("TestDrawing.txt"); //id = 105292912 -> 5+X -> X = 5%2 = 2 -> 5+2 = 7
-                    Console.WriteLine("Drawing savedd!!");
+                    Console.WriteLine("Drawing saved!!");
                 }
                if(SplashKit.KeyTyped(KeyCode.OKey))
                 {
@@ -102,8 +100,6 @@ namespace ShapeDrawer
                 myDrawing.Draw();
                 SplashKit.RefreshScreen();
             } while (!window.CloseRequested);
-
         }
-
     }
 }

@@ -1,0 +1,136 @@
+<svg width="1000" height="700" xmlns="http://www.w3.org/2000/svg">
+  <defs>
+    <style>
+      .location-box { fill: #f0f8ff; stroke: #2c3e50; stroke-width: 2; rx: 10; }
+      .spawn-box { fill: #e8f5e8; stroke: #27ae60; stroke-width: 3; rx: 10; }
+      .location-title { font-family: Arial, sans-serif; font-size: 16px; font-weight: bold; text-anchor: middle; fill: #2c3e50; }
+      .location-desc { font-family: Arial, sans-serif; font-size: 12px; text-anchor: middle; fill: #34495e; }
+      .items-text { font-family: Arial, sans-serif; font-size: 10px; text-anchor: middle; fill: #e74c3c; font-weight: bold; }
+      .path-line { stroke: #3498db; stroke-width: 3; fill: none; marker-end: url(#arrowhead); }
+      .path-label { font-family: Arial, sans-serif; font-size: 10px; text-anchor: middle; fill: #2980b9; font-weight: bold; }
+      .compass { font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; text-anchor: middle; fill: #34495e; }
+      .title { font-family: Arial, sans-serif; font-size: 24px; font-weight: bold; text-anchor: middle; fill: #2c3e50; }
+    </style>
+    <marker id="arrowhead" markerWidth="10" markerHeight="7" refX="9" refY="3.5" orient="auto">
+      <polygon points="0 0, 10 3.5, 0 7" fill="#3498db"/>
+    </marker>
+  </defs>
+
+  <!-- Title -->
+  <text x="500" y="30" class="title">SwinAdventure Theme Park Map</text>
+
+  <!-- Compass -->
+  <g transform="translate(50, 80)">
+    <circle cx="0" cy="0" r="40" fill="#ecf0f1" stroke="#34495e" stroke-width="2"/>
+    <text x="0" y="-25" class="compass">N</text>
+    <text x="25" y="5" class="compass">E</text>
+    <text x="0" y="30" class="compass">S</text>
+    <text x="-25" y="5" class="compass">W</text>
+    <polygon points="0,-20 5,0 0,20 -5,0" fill="#e74c3c"/>
+  </g>
+
+  <!-- Front Gate (Spawn Point) -->
+  <rect x="50" y="250" width="180" height="120" class="spawn-box"/>
+  <text x="140" y="275" class="location-title">Front Gate</text>
+  <text x="140" y="295" class="location-desc">Theme park entrance</text>
+  <text x="140" y="315" class="location-desc">Starting location</text>
+  <text x="140" y="340" class="items-text">Items: Entry Ticket</text>
+
+  <!-- Ferris Wheel -->
+  <rect x="350" y="250" width="180" height="120" class="location-box"/>
+  <text x="440" y="275" class="location-title">Ferris Wheel</text>
+  <text x="440" y="295" class="location-desc">Popular ride area</text>
+  <text x="440" y="315" class="location-desc">Long queues</text>
+  <text x="440" y="340" class="items-text">Items: Small Fan</text>
+
+  <!-- Jungle Ride -->
+  <rect x="650" y="250" width="180" height="120" class="location-box"/>
+  <text x="740" y="275" class="location-title">Jungle Ride</text>
+  <text x="740" y="295" class="location-desc">Water ride with</text>
+  <text x="740" y="315" class="location-desc">jungle atmosphere</text>
+  <text x="740" y="340" class="items-text">Items: Bronze Coin,</text>
+  <text x="740" y="355" class="items-text">Yellow Flower</text>
+
+  <!-- Haunted House -->
+  <rect x="650" y="50" width="180" height="120" class="location-box"/>
+  <text x="740" y="75" class="location-title">Haunted House</text>
+  <text x="740" y="95" class="location-desc">Scary attraction</text>
+  <text x="740" y="115" class="location-desc">Screaming voices</text>
+  <text x="740" y="140" class="items-text">Items: Plastic Skull</text>
+
+  <!-- Ice Cream Shop -->
+  <rect x="600" y="50" width="180" height="120" class="location-box"/>
+  <text x="690" y="75" class="location-title">Ice Cream Shop</text>
+  <text x="690" y="95" class="location-desc">Popular with</text>
+  <text x="690" y="115" class="location-desc">families</text>
+  <text x="690" y="140" class="items-text">Items: Vanilla Ice Cream</text>
+
+  <!-- Boat Race -->
+  <rect x="600" y="450" width="180" height="120" class="location-box"/>
+  <text x="690" y="475" class="location-title">Boat Race</text>
+  <text x="690" y="495" class="location-desc">Racing activity</text>
+  <text x="690" y="515" class="location-desc">Race in progress</text>
+  <text x="690" y="540" class="items-text">Items: Red Mini Boat</text>
+
+  <!-- Paths and Connections -->
+  
+  <!-- Front Gate to Ferris Wheel (East) -->
+  <line x1="230" y1="310" x2="350" y2="310" class="path-line"/>
+  <text x="290" y="305" class="path-label">E</text>
+  
+  <!-- Ferris Wheel to Front Gate (West) -->
+  <line x1="350" y1="320" x2="230" y2="320" class="path-line"/>
+  <text x="290" y="335" class="path-label">W</text>
+
+  <!-- Ferris Wheel to Jungle Ride (East) -->
+  <line x1="530" y1="310" x2="650" y2="310" class="path-line"/>
+  <text x="590" y="305" class="path-label">E</text>
+  
+  <!-- Jungle Ride to Ferris Wheel (West) -->
+  <line x1="650" y1="320" x2="530" y2="320" class="path-line"/>
+  <text x="590" y="335" class="path-label">W</text>
+
+  <!-- Jungle Ride to Haunted House (North) -->
+  <line x1="740" y1="250" x2="740" y2="170" class="path-line"/>
+  <text x="755" y="210" class="path-label">N</text>
+  
+  <!-- Haunted House to Jungle Ride (South) -->
+  <line x1="730" y1="170" x2="730" y2="250" class="path-line"/>
+  <text x="715" y="210" class="path-label">S</text>
+
+  <!-- Haunted House to Ice Cream Shop (East to West) -->
+  <line x1="650" y1="110" x2="530" y2="110" class="path-line"/>
+  <text x="590" y="105" class="path-label">E</text>
+  
+  <!-- Ice Cream Shop to Haunted House (West to East) -->
+  <line x1="530" y1="120" x2="650" y2="120" class="path-line"/>
+  <text x="590" y="135" class="path-label">W</text>
+
+  <!-- Haunted House to Boat Race (Southeast) -->
+  <line x1="720" y1="170" x2="480" y2="450" class="path-line"/>
+  <text x="600" y="310" class="path-label">SE</text>
+  
+  <!-- Boat Race to Haunted House (Northwest) -->
+  <line x1="470" y1="450" x2="710" y2="170" class="path-line"/>
+  <text x="590" y="310" class="path-label">NW</text>
+
+  <!-- Ice Cream Shop to Boat Race (South) -->
+  <line x1="440" y1="170" x2="440" y2="450" class="path-line"/>
+  <text x="455" y="310" class="path-label">S</text>
+  
+  <!-- Boat Race to Ice Cream Shop (North) -->
+  <line x1="430" y1="450" x2="430" y2="170" class="path-line"/>
+  <text x="415" y="310" class="path-label">N</text>
+
+  <!-- Legend -->
+  <rect x="50" y="550" width="300" height="120" fill="#f8f9fa" stroke="#dee2e6" stroke-width="1" rx="5"/>
+  <text x="60" y="570" style="font-family: Arial, sans-serif; font-size: 14px; font-weight: bold; fill: #2c3e50;">Legend:</text>
+  <rect x="60" y="580" width="20" height="15" class="spawn-box"/>
+  <text x="90" y="592" style="font-family: Arial, sans-serif; font-size: 12px; fill: #2c3e50;">Starting Location</text>
+  <rect x="60" y="600" width="20" height="15" class="location-box"/>
+  <text x="90" y="612" style="font-family: Arial, sans-serif; font-size: 12px; fill: #2c3e50;">Theme Park Attractions</text>
+  <line x1="60" y1="625" x2="80" y2="625" class="path-line"/>
+  <text x="90" y="630" style="font-family: Arial, sans-serif; font-size: 12px; fill: #2c3e50;">Movement Paths</text>
+  <text x="90" y="650" style="font-family: Arial, sans-serif; font-size: 12px; fill: #e74c3c; font-weight: bold;">Red Text: Available Items</text>
+
+</svg>

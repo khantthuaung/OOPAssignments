@@ -34,7 +34,6 @@ public class LookCommand : Command
         }
         string itemId = text[2];
         
-
         if (text.Length == 3)
         {
             container = p;
